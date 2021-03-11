@@ -35,18 +35,18 @@ export default function Post({ alias, body, dateTime, feedPostID, styling, karma
 
   return (
     <div className={`Post ${styling}`}>
-      <h4>{alias}</h4>
+      <h4>{alias}</h4><br></br>
       <p>{body}</p>
       <br></br>
       <span className="time">{time}</span>
       <br></br>
       <p></p>
-      <button onClick={()=> updatePostKarma(feedPostID, karma+1)}>Upvote</button>
+      <button className='karmaButton' onClick={()=> updatePostKarma(feedPostID, karma+1)}>Upvote</button>
       <span>{karma} votes</span>
-      <button onClick={()=> updatePostKarma(feedPostID, karma-1)}>Downvote</button>
+      <button className='karmaButton' onClick={()=> updatePostKarma(feedPostID, karma-1)}>Downvote</button>
       <br></br>
       <br></br>
-      <button onClick={()=> updateActiveThreadID(feedPostID)}>Comment</button>
+      <button className='karmaButton' onClick={()=> updateActiveThreadID(feedPostID)}>Comment</button>
     </div>
   );
 }
