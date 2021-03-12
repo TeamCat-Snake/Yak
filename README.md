@@ -5,7 +5,7 @@ This application is an iteration on top of the scratch codebase -> https://githu
 We've worked on adding the following pieces of functionality on top of this:
 1. Anonymous sessions and user names, to allow users to post their thoughts without worries of their identity being known. 
 2. The ability to reply to posts and maintain threads, with posts ordered from newest to oldest and threads ordered from oldest to newest (Top to Bottom).
-3. THe ability to upvote/downvote all posts and threads, to allow for other uses to see the most relevant posts by popularity. 
+3. The ability to upvote/downvote all posts and threads, to allow for other uses to see the most relevant posts by popularity. 
 
 
 Getting started
