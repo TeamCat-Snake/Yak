@@ -10,8 +10,8 @@ We've worked on adding the following pieces of functionality on top of this:
 
 Getting started
 
-1.Fork and clone Yak into your computer.
-2.Run npm install in your terminal.
+1. Fork and clone Yak into your computer.
+2. Run npm install in your terminal.
 3. Add a .env file and add a create a postgreSQL URI within the .env file. 
 3. Enter npm run build 
 4. Enter npm start to test the application
